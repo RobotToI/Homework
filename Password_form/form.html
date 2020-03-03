@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<title>Form</title>
 </head>
@@ -7,37 +7,37 @@
 	<h1>Отправка заявки на конференцию</h1>
 	<h3>Основные данные</h3>
 		<h4>* Фамилия, имя, отчество:</h4>
-		<input required="required" type="text" name="" placeholder="ex. Trotsyuk Nick Igorevich" size="25">
+		<input required="required" type="text" name="FandThName" placeholder="ex. Trotsyuk Nick Igorevich" size="25">
 		<h4>Дата рождения:</h4>
-		<input type="date" name="">
+		<input type="date" name="Birthday">
 		<h4>Пол:</h4>
 		<input type="radio" name="choise">&nbsp;мужской
 		<input type="radio" name="choise">&nbsp;женский
 	<h3>Данные для создания личного кабинета</h3>
 		<h4>* Адрес электронной почты:</h4>
-		<input required="required" type="email" name="" size="25">
+		<input required="required" type="email" name="email" size="25">
 		<h4>* Пароль для создания личного кабинета:</h4>
-		<input required="required" type="password" name="" size="25">
+		<input required="required" type="password" name="pass_first" size="25">
 		<h4>* Подтверждение пароля:</h4>
-		<input required="required" type="password" name="" size="25">
+		<input required="required" type="password" name="pass_second" size="25">
 	<h3>Материалы для конференции</h3>
 		<h4>* Тема доклада</h4>
-		<input required="required" type="text" name="" size="25">
+		<input required="required" type="text" name="topic" size="25">
 		<h4>* Тезисы доклада (не более 1000 символов</h4>
 		<textarea maxlength="1000" cols="35" rows="10"></textarea>
 		<h4>Файл презентации:</h4>
-		<input type="file" name="">
+		<input type="file" name="file">
 		<h3>Дополнительные опции</h3>
-		<input type="checkbox" name="" >&nbsp;Проживание в отеле
+		<input type="checkbox" name="Hotel" >&nbsp;Проживание в отеле
 		<br>
-		<input checked="checked" type="checkbox" name="" >&nbsp;Завтрак
+		<input checked="checked" type="checkbox" name="breakfast" >&nbsp;Завтрак
 		<br>
-		<input type="checkbox" name="" >&nbsp;Обед
+		<input type="checkbox" name="lunch" >&nbsp;Обед
 		<br>
-		<input type="checkbox" name="" >&nbsp;Ужин
+		<input type="checkbox" name="dinner" >&nbsp;Ужин
 		<br>
 		<hr>
-		<input type="button" name="" value="Отправить">
+		<input type="button" value="Отправить">
 		<hr>
 		<small>* Поля, отмеченные звёздочкой, являются обязательными для заполнения</small>
 
