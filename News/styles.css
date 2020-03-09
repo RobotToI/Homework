@@ -3,6 +3,12 @@ html, body {
 	padding: 0;
 	min-width: 1000px;
 }
+#header{
+		height: 25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+}
 
 
 #black-bar{
@@ -14,11 +20,6 @@ html, body {
 		text-align: left;
 
 }
-#logo{
-	/*width: 75px;*/
-	position: absolute;
-	top: 35px;
-	}
 
 #region{
 	font-size: 15px;
@@ -26,27 +27,26 @@ html, body {
 }
 #regions{
 	position: absolute;
-	top: 120px;
-	right: 1050px;
+	top: 20px;
+	right: 650px;
 }
 #search{
 	position: absolute;
-	top: 120px;
-	right: 390px;
-
+	top: 20px;
+	right: 0;
 }
 
 #weather-png{
 	position: absolute;
-	top: 120px;
-	right: 800px;
+	top: 20px;
+	right: 350px;
 	width: 15px;
 
 }
 #tempr{
 	position: absolute;
-	top: 120px;
-	right: 755px;
+	top:20px;
+	right: 305px;
 	color: silver;
 	font-size: 15px;
 
@@ -58,6 +58,28 @@ html, body {
 
 #datetime{
 	float: right;
+}
+
+#navigation{
+		height: 25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+}
+
+.nav a{
+				/*float: left;*/
+				display: inline-block;
+                width: auto;
+                padding: 5px 16px;
+                margin: 0 auto;
+                font-size: 19px;
+                /*background-color: #f4f4f4;*/
+                /*border: 1px dashed #333;*/
+                /*text-decoration: none;*/
+                /*color: #333;*/
+                text-align: center;
+
 }
 
 
