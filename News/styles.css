@@ -32,6 +32,7 @@ html, body {
 }
 #search{
 	position: absolute;
+	border-color: #2f8cc8;
 	top: 20px;
 	right: 0;
 }
@@ -42,6 +43,11 @@ html, body {
 	right: 350px;
 	width: 15px;
 
+}
+#select{
+	 color: #2f8cc8;
+	 border: 0;
+	 
 }
 #tempr{
 	position: absolute;
@@ -93,3 +99,4 @@ html, body {
 	margin: 0 auto;
 	position: relative;
 }
+
