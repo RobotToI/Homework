@@ -66,13 +66,18 @@ html, body {
 		padding-bottom: 20px;
 
 }
+.nav {
+	color:silver;
+}
 
 .nav a{
 				/*float: left;*/
+				text-decoration: none;
+				color: black;
 				display: inline-block;
                 width: auto;
-                padding: 5px 16px;
-                margin: 0 auto;
+                padding: 5px 9px;
+                margin: 0 3px;
                 font-size: 19px;
                 /*background-color: #f4f4f4;*/
                 /*border: 1px dashed #333;*/
