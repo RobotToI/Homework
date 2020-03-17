@@ -210,9 +210,74 @@ h2{
 
 		}
 
-		#special-news{
-			margin-top: 20px; 
+#special-news .fixed-conteiner{
+	padding-top:  10px;
+	overflow-y: hidden;
+	}
+	#special-news {
+		/*display: inline-block;*/
+	}
+#main-news_sp{
+	position: relative;
+	width: 590px;
+	height: 390px;
+	float: left;
+	background-image: url('pekin_war.jpg');
+	background-repeat: no-repeat;
+	color: white;
+
+
+}
+	#chapter_sp{
+				position: absolute;
+				font-size: 15px;
+				top: 110px;
+				left: 10px;
+
+	}
+	#main-news_sp h3{
+			position: absolute;
+			font-size: 28px;
+			width: 400px;
+			top: 130px;
+			left: 10px;
 		}
+	#dateofnews_sp{
+			position: absolute;
+			font-size: 15px;
+			top: 260px;
+			left: 90px;
+		}
+	#news-time_sp{
+			position: absolute;
+			font-size: 15px;
+			top: 260px;
+			left: 195px;
+
+		}
+	#etc-news{
+		font-size: 18px;
+		position: absolute;
+		top: 280px;
+		left: 10px;
+
+	}
+
+#column-right_sp {
+	/*position: relative;*/
+	background-color: white;
+	width: 370px;
+	float: right;
+}
+
+#column-right_sp .news-item-text{
+		font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+
 #central-conteiner{
 	background-color: #f9f9f9;
 	background-image: url('central-bg-top.png');
@@ -242,9 +307,10 @@ h2{
 		 background-color: white;
 	}
 
+
 .secondarynews{
 	background-color: white;
-	/*display: inline-block;*/
+	margin-top: 26px;
 	padding-bottom: 5px;
 	margin-right:  10px;
 	margin-bottom: 10px;
