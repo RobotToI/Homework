@@ -307,6 +307,14 @@ h2{
 		 background-color: white;
 	}
 
+#footer{
+	background-color: #00122f; 
+   	height: 80px;
+	margin-top: -80px;
+	flex: 0 0 auto;
+	/*position: relative;*/
+}
+
 
 .secondarynews{
 	background-color: white;
@@ -375,5 +383,6 @@ h2{
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
+	flex: 1 0 auto;
 }
 
