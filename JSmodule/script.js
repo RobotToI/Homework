@@ -4,9 +4,9 @@ $(function () {
 		$('#translation').toggleClass('translation');
 		// $('#conteiner').css('font-size', '50px');
 	}
-	setInterval(changeFontColorAndSize,150);
+	// setInterval(changeFontColorAndSize,150);
 
-	// $('#changeColor').on('click',function(){
-	// 	changeFontColorAndSize();
-	// });
+	$('#changeColor').on('click',function(){
+		changeFontColorAndSize();
+	});
 })
