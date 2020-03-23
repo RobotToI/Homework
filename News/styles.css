@@ -20,7 +20,7 @@ h2{
 
 #black-bar{
 		height: 25px;
-		background-color: black; 
+		background-color: #00122f; 
 		color: white;
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -309,10 +309,79 @@ h2{
 
 #footer{
 	background-color: #00122f; 
-   	height: 80px;
-	margin-top: -80px;
-	flex: 0 0 auto;
-	/*position: relative;*/
+   	height: 310px;
+	position: relative;
+}
+
+
+#up-footer{
+	height: 260px;
+
+}
+	#about{
+		position: absolute;
+		top: 60px;
+		left: 450px;
+	}
+	#about a{
+		position: relative;
+		
+		text-decoration: none;
+		color: white;
+		display: block;
+/*		float: left;*/
+	    width: 200px;
+	    padding: 10px 3px;
+	    margin: 0 5px;
+	    font-size: 16px;
+	    text-align: left;
+	}
+ 	#contacts{
+ 		color: white;
+ 		position: absolute;
+		top: 60px;
+		width: 200px;
+		right: 30px;
+ 	}
+ 	#number{
+ 		position: absolute;
+ 		top: 85px;
+ 		/*content: '\260E';*/
+ 		padding: 8px 0px;
+   		margin: 0 0px;
+ 	}
+ 	#email{
+ 		position: absolute;
+ 		top: 125px;
+ 		padding: 8px 0px;
+   		margin: 0 -2px;
+ 	}
+ 	#down-footer{
+ 		position: relative;
+		border-top:  1px solid #26354e;
+ 	}
+ 	#down-footer-text{
+ 		color: #727882;
+ 		position: absolute;
+ 		left: 490px;
+ 		top: 15px;
+ 	}
+.nav_foot a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	float: left;
+    width: 90px;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    text-align: left;
+}
+.nav_foot{
+	position: absolute;
+	top: 60px;
+	font-size: 20px;
+	width: 290px;
 }
 
 
