@@ -6,7 +6,7 @@ $(function () {
 	}
 	// setInterval(changeFontColorAndSize,150);
 
-	$('#changeColor').on('click',function(){
+	$('#changeColor').on('mouseover',function(){
 		changeFontColorAndSize();
 	});
 })
