@@ -22,6 +22,19 @@ body {
 	margin-top:  60px;
 	font-family: Arial;
 }
+#left-column{
+	width: 470px;
+	float: left;
+	margin-top:  60px;
+	font-family: Arial;
+}
+
+#delnet{
+	width: 400px;
+	color: #8993ad;
+	float: right;
+	padding: 10px 0;
+}
 #deal{
 	color: #8993ad;
 	white-space: nowrap;
