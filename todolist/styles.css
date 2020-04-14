@@ -46,6 +46,7 @@ body {
 	background-color: #f9f9f9;
 	margin-bottom: 10px; 
 	resize: none;
+	border-radius: 5px;
 }
 #discription{
 	color: #8993ad;
@@ -56,6 +57,7 @@ body {
 	height: 230px;
 	background-color: #f9f9f9;
 	resize: none;
+	border-radius: 7px;
 }
 #add {
 	background-color: #2174fd;
